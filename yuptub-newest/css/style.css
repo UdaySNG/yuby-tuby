@@ -1,0 +1,145 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #211d1d;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(33, 29, 29);
+}
+
+.main {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(33, 29, 29);
+  gap: 27rem;
+}
+
+header {
+  background-color: rgb(32, 7, 84);
+  height: 14rem;
+  width: 100%;
+}
+
+.title__text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3rem;
+  color: white;
+  font-size: 5rem;
+  font-family: sans-serif;
+  gap: 1.3rem;
+}
+
+.title__text:hover {
+  transition: 0.3s;
+  color: purple;
+}
+
+.aside__side {
+  display: flex;
+  justify-content: flex-end;
+  height: 90vh;
+  width: 24rem;
+  overflow: scroll;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.aside_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 17rem;
+  width: 19rem;
+  margin-bottom: 3rem;
+  transition: 0.4s all ease-in-out;
+}
+.aside_img:hover:hover {
+  transform: scale(1.02);
+}
+.aside_img:hover:not(:hover) {
+  box-shadow: none;
+  transform: scale(1);
+}
+
+.main__video {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45rem;
+  border: black solid 0.5rem;
+}
+
+.main__video__overlay {
+  width: 10rem;
+  height: 10rem;
+}
+
+.star__style__first {
+  position: relative;
+  bottom: 45rem;
+  height: 5rem;
+  width: 5rem;
+  color: rgb(246, 255, 0);
+  font-size: 5rem;
+}
+
+.figure__element {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 1rem;
+  gap: 2rem;
+  width: 79.3rem;
+  height: 10rem;
+}
+
+.star__icon {
+  padding-top: 1.5rem;
+  font-size: 5.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.share__icon {
+  padding-top: 1.5rem;
+  font-size: 5.5rem;
+  color: rgb(255, 255, 255);
+}
+
+.profile__sizing {
+  justify-content: flex-start;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  position: relative;
+  top: 2rem;
+  right: 70rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+.title__size {
+  color: white;
+  font-size: 3rem;
+}
+
+.main__comment__profile {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
